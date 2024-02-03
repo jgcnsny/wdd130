@@ -11,7 +11,7 @@
     --paragraph-font: 'Montserrat',sans-serif;
 
     --nav-background-color:#4b89ba;
-    --nav-link-color:#e9f6ff;
+    --nav-link-color:#4b89ba;
     --nav-hover-link-color:#f4ebb2;
     --nav-hover-background-color:#6cc2b9;
 }
@@ -49,8 +49,6 @@ header img {
 
 
 nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
     text-align: right;
     display: flex;
     justify-content: center; 
@@ -64,7 +62,7 @@ nav a {
     text-decoration: none;
     padding: 20px;
     margin: 0 10px; 
-    box-sizing: bo;
+    box-sizing: border-box;
 }
 
 nav a:link, nav a:visited {
@@ -85,7 +83,7 @@ nav a:hover{
     position: absolute;
     font-family: var(--heading-font);
     color: var(--accent2-color);
-    top: 50px;
+    top: 250px;
     left: 45%;
     margin:0; 
 }
@@ -101,7 +99,7 @@ nav a:hover{
     background-color: rgba(233, 246, 255,0.7);
     top:40%;
     right: auto;
-    text-align: center; 
+    text-align: justify; 
     padding: 0.65rem;
     
 }
