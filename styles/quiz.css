@@ -55,13 +55,14 @@ input, select, textarea{
 }
 
 button{
-    margin: 1rem;
+    margin: 2rem;
     background-color: navy;
     color: #fff;
     border: none;
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    width: 550px;
 }
 
 button:hover {
