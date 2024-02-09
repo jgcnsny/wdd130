@@ -23,9 +23,10 @@ body {
     margin: 0px;
 }
 
-h1,h2, h3, h4, h5, h6 {
+h1{
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 p {
@@ -119,6 +120,8 @@ nav a:hover{
 
 
 h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
     width: 100%; 
     text-align: center; 
     margin-top: 100px;
@@ -246,18 +249,15 @@ legend{
     font-size: 1.3em;
 }
 
-label, input, button, select, textarea {
-    font: var(--paragraph-font);
-
-}
-
 label {
+    font: var(--paragraph-font);
     text-align: left;
     padding-right: 1rem;
     margin-left: 20px;
 }
 
 input, select, textarea{
+    font: var(--paragraph-font);
     padding: 0.5rem;
     font-size: 1.1rem;
     margin: 10px;
@@ -272,6 +272,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 button{
+    font: var(--paragraph-font);
     margin: 1rem;
     background-color: var(--primary-color);
     color: #fff;
