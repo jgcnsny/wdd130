@@ -12,6 +12,7 @@
 
     --nav-background-color:#4b89ba;
     --nav-link-color:#e9f6ff;
+    --nav-link2-color:#4b89ba;
     --nav-hover-link-color:#f4ebb2;
     --nav-hover-background-color:#6cc2b9;
 }
@@ -177,10 +178,123 @@ footer p{
 
 footer nav {
     background-color: var(--accent2-color);
+    
 }
+
+footer nav a {
+    color: #000;
+}
+
 
 footer img {
     float: right;
     width: 30px;
     height: auto;
+}
+
+
+
+/*Contact us*/
+.contact-info {
+    padding: 0.65rem;
+    display: grid;
+    text-align: center;
+}
+
+.employee {
+    background-color: var(--accent2-color);
+    padding: 1px 0 10px 0;
+}
+
+.employee-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+    text-align: center;
+}
+
+.employee-content img{
+    width: auto;
+    height: auto;
+}
+
+
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: var(--accent2-color);
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend{
+    padding: 0.5rem;
+    color: var(--primary-color);
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font: var(--paragraph-font);
+
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+    margin-left: 20px;
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    margin: 10px;
+    width: auto;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+    margin-left: 20px;
+}
+
+button{
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+
+}
+
+.column1{
+    grid-template-columns:  0.3fr 5fr;
+    margin: 0.5rem 0 ;
+}
+
+.column2 {
+    grid-template-columns: 1fr 4fr;
 }
