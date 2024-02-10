@@ -166,7 +166,7 @@ section img {
 }
 
 footer{
-    background-color: var(--accent2-color);
+    background-color: var(--primary-color);
     margin-top: 15px;
     text-align: center;
     display: flex;
@@ -176,16 +176,12 @@ footer{
 footer p{
     text-align:center;
     flex-grow: 1;
-    margin-left: 350px;
+    margin-left: 500px;
 }
 
 footer nav {
-    background-color: var(--accent2-color);
+    background-color: var(--primary-color);
     
-}
-
-footer nav a {
-    color: #000;
 }
 
 
@@ -273,13 +269,15 @@ input[type="radio"], input[type="checkbox"] {
 
 button{
     font: var(--paragraph-font);
-    margin: 1rem;
+    margin: 1rem 0 0 17rem;
     background-color: var(--primary-color);
     color: #fff;
     border: none;
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    width: 100px;
+    
 }
 
 button:hover {
