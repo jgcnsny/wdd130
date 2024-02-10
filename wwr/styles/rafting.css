@@ -167,7 +167,7 @@ section img {
 
 footer{
     background-color: var(--primary-color);
-    margin-top: 15px;
+    margin-top: 100px;
     text-align: center;
     display: flex;
     justify-content: flex-end; 
@@ -177,13 +177,8 @@ footer p{
     text-align:center;
     flex-grow: 1;
     margin-left: 500px;
+    color: var(--accent2-color);
 }
-
-footer nav {
-    background-color: var(--primary-color);
-    
-}
-
 
 footer img {
     float: right;
