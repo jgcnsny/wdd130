@@ -36,7 +36,7 @@ p {
 header {
     background-color: var(--accent1-color);
     padding: 20px;
-    margin: 1rem auto;
+
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
@@ -199,8 +199,8 @@ footer img {
     border: black 1px solid;
 }
 
-.employee {
-    background-color: var(--accent2-color);
+.employee, .offerings {
+    background-color: var(--accent1-color);
     padding: 1px 0 10px 0;
 }
 
@@ -274,7 +274,7 @@ button{
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
-    width: 100px;
+    width: 150px;
     
 }
 
@@ -296,3 +296,156 @@ button:hover {
 .column2 {
     grid-template-columns: 1fr 4fr;
 }
+
+/* Home Page */
+
+.banner {
+    position: relative;
+    background-color: var(--accent1-color);
+}
+
+.banner img{
+    width:100%;
+}
+
+.banner h1, .trip-banner h1{
+    position: absolute;
+    top:5%;
+    right: 350px;
+    text-align: center; 
+    padding: 0.65rem;
+    color: var(--accent2-color);
+    font-size: 60px;
+    
+}
+
+.call-button{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top:30%;
+    right: 45%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.call-button:hover, .call-button:active {
+    background-color:var(--primary-color);
+  }
+
+.grid-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+grid-gap: 20px;
+margin: 10px 30px 20px 100px;
+}
+
+.item {
+text-align: center;
+border-radius: 10px;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+margin-top: 20px;
+width: 80%;
+
+}
+
+.item img {
+width: 400px;
+height: 300px;
+}
+
+.item h2 {
+margin-top: 10px;
+}
+
+.item p {
+margin-bottom: 20px;
+}
+
+/*Trip*/
+.trip-banner {
+    position: relative;
+
+}
+
+.trip-banner img{
+    width:100%;
+}
+
+.trip-banner h1{
+    position: absolute;
+    top:20%;
+    right: 250px;
+    text-align: center; 
+    padding: 0.65rem;
+    color: white;
+    font-size: 40px;
+    
+}
+
+.book-button{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top:60%;
+    right: 45%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.book-button:hover, .book-button:active, .contact-button:hover, .contact-button:active{
+    background-color:var(--secondary-color);
+}
+
+.trip-container {
+display: flex;
+justify-content: space-around;
+}
+
+.trip-table {
+width: 25%;
+border-collapse: collapse;
+margin-top: 100px;
+text-align: center;
+}
+thead{
+    font-size: 20px;
+}
+
+.trip-table th, .trip-table td {
+padding: 20px;
+border: 1px solid #ddd;
+}
+
+.trip-table th {
+background-color: #f2f2f2;
+}
+
+.trip-table tbody tr:nth-child(even) {
+background-color: #f9f9f9;
+}
+
+
+.contact-button{
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px;
+    border-radius: 5px;
+   
+}
+
+  
