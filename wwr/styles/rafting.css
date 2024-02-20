@@ -11,7 +11,7 @@
     --paragraph-font: 'Montserrat',sans-serif;
 
     --nav-background-color:#4b89ba;
-    --nav-link-color:#e9f6ff;
+    --nav-link-color:#000;
     --nav-link2-color:#4b89ba;
     --nav-hover-link-color:#f4ebb2;
     --nav-hover-background-color:#6cc2b9;
@@ -25,7 +25,7 @@ body {
 
 h1{
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: #002e52;
     text-align: center;
 }
 
@@ -34,9 +34,8 @@ p {
 }
 
 header {
-    background-color: var(--primary-color);
+    background-color: var(--accent2-color);
     padding: 20px;
-
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
@@ -118,7 +117,7 @@ nav a:hover{
 
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: #002e52;
     width: 100%; 
     text-align: center; 
     margin-top: 100px;
@@ -163,7 +162,7 @@ section img {
 }
 
 footer{
-    background-color: var(--primary-color);
+    background-color: var(--accent2-color);
     margin-top: 100px;
     text-align: center;
     display: flex;
@@ -174,7 +173,7 @@ footer p{
     text-align:center;
     flex-grow: 1;
     margin-left: 500px;
-    color: var(--accent2-color);
+    color: #000;
 }
 
 footer img {
@@ -235,7 +234,7 @@ fieldset{
 
 legend{
     padding: 0.5rem;
-    color: var(--primary-color);
+    color: #000;
     font-size: 1.3em;
 }
 
@@ -265,11 +264,12 @@ button{
     font: var(--paragraph-font);
     margin: 1rem 0 0 15rem;
     background-color: var(--primary-color);
-    color: #fff;
+    color: #000;
     border: none;
     border-radius: .5rem;
     padding: .75rem;
-    font-size: 1.2rem;
+    font-size: 20px;
+    font-weight: bold;
     width: 150px;
     
 }
@@ -315,8 +315,8 @@ button:hover {
 }
 
 .call-button{
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: var(--primary-color);
+    color: #000;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -326,10 +326,11 @@ button:hover {
     right: 45%;
     border-radius: 5px;
     font-size: 20px;
+    font-weight: bolder;
 }
 
 .call-button:hover, .call-button:active {
-    background-color:var(--primary-color);
+    background-color:var(--secondary-color);
   }
 
 .grid-container {
@@ -386,7 +387,7 @@ margin-bottom: 20px;
 
 .book-button{
     background-color: var(--primary-color);
-    color: white;
+    color: #000;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -396,6 +397,7 @@ margin-bottom: 20px;
     right: 45%;
     border-radius: 5px;
     font-size: 20px;
+    font-weight: bolder;
 }
 
 .book-button:hover, .book-button:active, .contact-button:hover, .contact-button:active{
@@ -427,7 +429,7 @@ border: 1px solid #ddd;
 
 .trip-table th {
 background-color: var(--accent2-color);
-color: #4b89ba;
+color: #000;
 }
 
 .trip-table tbody tr:nth-child(even) {
@@ -437,13 +439,15 @@ background-color: #f9f9f9;
 
 .contact-button{
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: #000;
     text-decoration: none;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     padding: 14px;
     border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
    
 }
 
@@ -460,13 +464,14 @@ display: flex;
 flex: 50%;
 padding: 30px;
 background-color: var(--primary-color);
-color: #fff
+color: #000;
 }
 .column-2 {
 flex: 50%;
 padding: 20px;
 height: auto;
 background-color: white;
+
 }
 .column img, .column-2 img{
 width: 100%;
@@ -478,5 +483,10 @@ margin-top: 20px;
 
 }
 .column h2 {
-color: #fff;
+color: #000;
+}
+
+.column p, .column-2 p {
+font-size: 19px;
+font-weight: bold;
 }
