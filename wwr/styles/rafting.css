@@ -482,16 +482,22 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-top: 20px;
 }
 
+.card-1 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 200px;
+}
+
 .card-2 {
     background-color: white;
     padding: 20px;
-    margin-top: 500px;
+    margin-top: 400px;
 }
 
 .card-3 {
     background-color: white;
     padding: 20px;
-    margin-top: 400px;
+    margin-top: 500px;
 }
 
 .row:after {
