@@ -200,7 +200,6 @@ footer img {
 }
 
 .employee, .offerings {
-    background-color: var(--accent1-color);
     padding: 1px 0 10px 0;
 }
 
@@ -301,7 +300,6 @@ button:hover {
 
 .banner {
     position: relative;
-    background-color: var(--accent1-color);
 }
 
 .banner img{
