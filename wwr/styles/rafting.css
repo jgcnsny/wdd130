@@ -414,8 +414,9 @@ text-align: center;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 thead{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .trip-table th, .trip-table td {
@@ -424,7 +425,8 @@ border: 1px solid #ddd;
 }
 
 .trip-table th {
-background-color: var(--secondary-color);
+background-color: var(--accent2-color);
+color: #4b89ba;
 }
 
 .trip-table tbody tr:nth-child(even) {
