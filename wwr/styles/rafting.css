@@ -34,7 +34,7 @@ p {
 }
 
 header {
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     padding: 20px;
 
     display: grid;
@@ -49,11 +49,7 @@ header img {
 
 }
 
-.navigation {
-    background-color:var(--nav-background-color);
-    width: 600px;
-    margin-left: 500px;
-}
+
 nav {
     text-align: right;
     display: flex;
@@ -266,7 +262,7 @@ input[type="radio"], input[type="checkbox"] {
 
 button{
     font: var(--paragraph-font);
-    margin: 1rem 0 0 17rem;
+    margin: 1rem 0 0 15rem;
     background-color: var(--primary-color);
     color: #fff;
     border: none;
@@ -411,7 +407,7 @@ justify-content: space-around;
 }
 
 .trip-table {
-width: 100%;
+width: 30%;
 border-collapse: collapse;
 margin-top: 100px;
 text-align: center;
@@ -428,7 +424,7 @@ border: 1px solid #ddd;
 }
 
 .trip-table th {
-background-color: #f2f2f2;
+background-color: var(--secondary-color);
 }
 
 .trip-table tbody tr:nth-child(even) {
@@ -448,60 +444,36 @@ background-color: #f9f9f9;
    
 }
 
-.leftcolumn {   
-float: left;
-width: 60%;
+* {
+box-sizing: border-box;
 }
 
-
-.rightcolumn {
-float: left;
-width: 35%;
-padding-left: 30px;
+.row {
+display: flex;
 }
 
-
-.tripimg {
+/* Create two equal columns that sits next to each other */
+.column {
+flex: 50%;
+padding: 30px;
 background-color: var(--primary-color);
-width: 100%;
-padding: 20px;
-height:auto;
+color: #fff
 }
-
-.tripimg img{
+.column-2 {
+flex: 50%;
+padding: 20px;
+height: auto;
+background-color: white;
+}
+.column img, .column-2 img{
 width: 100%;
 height: auto;
-margin: 0;
+margin-right: 50px;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+margin-top: 20px;
 
-.card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
 }
-
-.card-1 {
-    background-color: white;
-    padding: 20px;
-    margin-top: 200px;
-}
-
-.card-2 {
-    background-color: white;
-    padding: 20px;
-    margin-top: 400px;
-}
-
-.card-3 {
-    background-color: white;
-    padding: 20px;
-    margin-top: 500px;
-}
-
-.row:after {
-content: "";
-display: table;
-clear: both;
+.column h2 {
+color: #fff;
 }
